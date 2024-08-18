@@ -8,7 +8,7 @@ public class Calwithparameter {
 		cal.subtraction(158, 123);
 		cal.multiplication(52, 98);
 		cal.division(579, 32);
-		
+		cal.display();
       }
      public void addition(int a,int b)
      {
@@ -19,6 +19,7 @@ public class Calwithparameter {
      {
     	 int sub = a-b;
     	 System.out.println("subtraction is "+sub);
+    	 
      }
      public void multiplication(int a,int b)
      {
@@ -32,4 +33,10 @@ public class Calwithparameter {
     	 System.out.println("division is "+div);
     	 System.out.println("remainder is "+rem);
      }
+     public void display()
+     {
+    	 System.out.println("Hello alka i am varsha");
+    	 
     }
+     }
+
