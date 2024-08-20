@@ -17,7 +17,7 @@ public class LinkedListStudy {
 		lle.add(29.77);
 		lle.add(null);
 		lle.add('F');
-		
+		//add new comment
 		System.out.println(lle);
 		System.out.println(lle.get(5));//get
 		System.out.println(lle.element());
